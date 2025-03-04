@@ -1,0 +1,131 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "spfresh",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Debug/spfresh",
+            "args": [
+                //"/home/lyh/baselines/SPFresh_baseline/Script_AE/configuration/argoverse2"
+                "/home/lyh/baselines/SPFresh_baseline/Script_AE/configuration/sift1m"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [
+                // {
+                //     "name": "PCI_ALLOWED",
+                //     "value": "c636:00:00.0"
+                // },
+                // {
+                //     "name": "SPFRESH_SPDK_USE_SSD_IMPL",
+                //     "value": "1"
+                // },
+                // {
+                //     "name": "SPFRESH_SPDK_CONF",
+                //     "value": "/home/lyh/SPFresh/Script_AE/bdev.json"
+                // },
+                // {
+                //     "name": "SPFRESH_SPDK_BDEV",
+                //     "value": "Nvme0n1"
+                // }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        
+        {
+            "name": "usefultool",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Debug/usefultool",
+            "args": [
+                "-BuildVector",
+                "true",
+                "--vectortype",
+                "float",
+                "--BaseVectorPath",
+                "/home/lyh/datasets/embeddings/test/base_embeddings.bin",
+                "--CurrentListFileName",
+                "/home/lyh/datasets/embeddings/test/batches/base_embedding_ids",
+                "--QueryVectorPath",
+                "/home/lyh/datasets/embeddings/test/query_embeddings.bin",
+                "--BaseVectorSplitPath",
+                "/home/lyh/datasets/embeddings/test/query_vector_range.bin",
+                "--filetype",
+                "DEFAULT",
+                "--ride",
+                "100",
+                "-d",
+                "256",
+                "-f",
+                "DEFAULT",
+                "--Batch",
+                "100",
+                "-NewDataSetFileName",
+                "/home/lyh/datasets/embeddings/test/batches/base_embeddings",
+                "-NewQueryDataSetFileName",
+                "/home/lyh/datasets/embeddings/test/batches/query_embeddings",
+                "-ConfigurePath",
+                //"/home/lyh/baselines/SPFresh_baseline/Script_AE/configuration/argoverse2/build_base_index.ini"
+                "/home/lyh/baselines/SPFresh_baseline/Script_AE/configuration/sift1m/build_base_index.ini"
+
+                // "-BuildVector",
+                // "true",
+                // "--vectortype",
+                // "float",
+                // "--BaseVectorPath",
+                // "/home/lyh/datasets/embeddings/sift1m/base_embeddings.bin",
+                // "--CurrentListFileName",
+                // "/home/lyh/datasets/embeddings/sift1m/batches/base_embedding_ids",
+                // "--QueryVectorPath",
+                // "/home/lyh/datasets/embeddings/sift1m/query_embeddings.bin",
+                // "--BaseVectorSplitPath",
+                // "/home/lyh/datasets/embeddings/sift1m/query_vector_range.bin",
+                // "--filetype",
+                // "DEFAULT",
+                // "--ride",
+                // "10",
+                // "-d",
+                // "128",               
+                // "-f",
+                // "DEFAULT",
+                // "--Batch",
+                // "10",                
+                // "-NewDataSetFileName",
+                // "/home/lyh/datasets/embeddings/sift1m/batches/base_embeddings",               
+                // "-NewQueryDataSetFileName",
+                // "/home/lyh/datasets/embeddings/sift1m/batches/query_embeddings", 
+                //"-ConfigurePath",
+                //"/home/lyh/baselines/SPFresh_baseline/Script_AE/configuration/sift1m/build_base_index.ini"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+
+    ]
+}

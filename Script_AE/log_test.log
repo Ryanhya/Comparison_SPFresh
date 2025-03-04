@@ -1,0 +1,138 @@
+[1] Using AVX512 InstructionSet!
+[1] folderPath: /home/laiyuhui/SPFresh/Script_AE/ 
+[1] 2: /home/laiyuhui/SPFresh/Script_AE/indexloader.ini 
+[1] Setting dim = Dim with value 256
+[1] Setting distcalcmethod = DistCalcMethod with value L2
+[1] Setting generatetruth = GenerateTruth with value false
+[1] Setting headindexfolder = HeadIndexFolder with value head_index
+[1] Setting headvectorids = HeadVectorIDs with value head_vectors_ID_UInt8_L2_base_DEFUALT.bin
+[1] Setting headvectors = HeadVectors with value head_vectors_UInt8_L2_base_DEFUALT.bin
+[1] Setting indexalgotype = IndexAlgoType with value BKT
+[1] Setting indexdirectory = IndexDirectory with value /home/sosp/data/store_sift_cluster
+[1] Setting querydelimiter = QueryDelimiter with value 
+[1] Setting querypath = QueryPath with value /home/laiyuhui/datasets/argoverse2/motion_forecast/embeddings/test/query_embeddings.bin
+[1] Setting querysize = QuerySize with value 10000
+[1] Setting querytype = QueryType with value DEFAULT
+[1] Setting truthpath = TruthPath with value /home/sosp/data/sift_data/bigann1m_update_clustering_origin_truth
+[1] Setting truthtype = TruthType with value DEFAULT
+[1] Setting valuetype = ValueType with value Float
+[1] Setting vectordelimiter = VectorDelimiter with value 
+[1] Setting vectorpath = VectorPath with value /home/sosp/data/sift_data/bigann1m_update_clustering
+[1] Setting vectorsize = VectorSize with value 1049411
+[1] Setting vectortype = VectorType with value DEFAULT
+[1] Setting warmupdelimiter = WarmupDelimiter with value 
+[1] Setting warmuppath = WarmupPath with value 
+[1] Setting warmupsize = WarmupSize with value 10000
+[1] Setting warmuptype = WarmupType with value DEFAULT
+[1] Setting AnalyzeOnly with value false
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLeafSize with value 8
+[1] Setting CalcStd with value true
+[1] Setting isExecute with value false
+[1] Setting NoOutput with value false
+[1] Setting NumberOfThreads with value 80
+[1] Setting PrintSizeCount with value true
+[1] Setting Ratio with value 0.15
+[1] Setting RecursiveCheckSmallCluster with value true
+[1] Setting SamplesNumber with value 1000
+[1] Setting SaveBKT with value false
+[1] Setting SelectDynamically with value true
+[1] Setting SelectThreshold with value 12
+[1] Setting SplitFactor with value 9
+[1] Setting SplitThreshold with value 18
+[1] Setting TreeNumber with value 1
+[1] Setting AddCEF with value 500
+[1] Setting AddCountForRebuild with value 1000
+[1] Setting BKTKmeansK with value 32
+[1] Setting BKTLambdaFactor with value 100.000000
+[1] Setting BKTLeafSize with value 8
+[1] Setting BKTNumber with value 1
+[1] Setting CEF with value 1000
+[1] Setting DataBlockSize with value 1048576
+[1] Setting DataCapacity with value 2147483647
+[1] Setting DeletePercentageForRefine with value 0.400000
+[1] Setting DeleteVectorFilePath with value deletes.bin
+[1] Setting DistCalcMethod with value L2
+[1] Setting EnableBfs with value 0
+[1] Setting EnableRebuild with value 1
+[1] Setting GPUGraphType with value 2
+[1] Setting GPULeafSize with value 500
+[1] Setting GPURefineDepth with value 30
+[1] Setting GPURefineSteps with value 0
+[1] Setting GraphCEFScale with value 2.000000
+[1] Setting GraphFilePath with value graph.bin
+[1] Setting GraphNeighborhoodScale with value 2.000000
+[1] Setting HashTableExponent with value 2
+[1] Setting HeadNumGPUs with value 1
+[1] Setting isExecute with value false
+[1] Setting MaxCheck with value 4096
+[1] Setting MaxCheckForRefineGraph with value 8192
+[1] Setting MetaRecordSize with value 10
+[1] Setting NeighborhoodSize with value 32
+[1] Setting NumberOfInitialDynamicPivots with value 50
+[1] Setting NumberOfOtherDynamicPivots with value 4
+[1] Setting NumberOfThreads with value 80
+[1] Setting NumTopDimensionTpTreeSplit with value 5
+[1] Setting RefineIterations with value 2
+[1] Setting RNGFactor with value 1.000000
+[1] Setting Samples with value 1000
+[1] Setting ThresholdOfNumberOfContinuousNoBetterPropagation with value 3
+[1] Setting TPTBalanceFactor with value 2
+[1] Setting TPTLeafSize with value 2000
+[1] Setting TPTNumber with value 32
+[1] Setting TreeFilePath with value tree.bin
+[1] Setting VectorFilePath with value vectors.bin
+[1] Setting AppendThreadNum with value 8
+[1] Setting BaseVectorSplitPath with value /home/laiyuhui/datasets/argoverse2/motion_forecast/embeddings/test/query_vector_range.bin
+[1] Setting BuildSsdIndex with value false
+[1] Setting CalTruth with value true
+[1] Setting Days with value 1
+[1] Setting DeleteQPS with value 16000
+[1] Setting DisableReassign with value false
+[1] Setting ExcludeHead with value false
+[1] Setting FullVectorPath with value /home/laiyuhui/datasets/argoverse2/motion_forecast/embeddings/test/base_embeddings.bin
+[1] Setting InsertThreadNum with value 1
+[1] Setting InternalResultNum with value 64
+[1] Setting isExecute with value true
+[1] Setting LatencyLimit with value 9.0
+[1] Setting LoadAllVectors with value true
+[1] Setting MaxDistRatio with value 1000000
+[1] Setting MaxInternalResultNum with value 128
+[1] Setting MergeThreshold with value 10
+[1] Setting MinInternalResultNum with value 16
+[1] Setting NumberOfThreads with value 10
+[1] Setting OnlySearchFinalBatch with value true
+[1] Setting OutputEmptyReplicaID with value 1
+[1] Setting PostingPageLimit with value 300
+[1] Setting ReassignK with value 0
+[1] Setting ReassignThreadNum with value 0
+[1] Setting ReplicaCount with value 8
+[1] Setting ResultNum with value 10
+[1] Setting Sampling with value 2
+[1] Setting SearchDuringUpdate with value true
+[1] Setting SearchInternalResultNum with value 64
+[1] Setting SearchPostingPageLimit with value 300
+[1] Setting SearchThreadNum with value 4
+[1] Setting SearchTimes with value 1
+[1] Setting ShowUpdateProgress with value false
+[1] Setting SpdkBatchSize with value 64
+[1] Setting Step with value 100
+[1] Setting StepInternalResultNum with value 16
+[1] Setting TmpDir with value /home/sosp/data/store_sift_cluster/tmpdir
+[1] Setting TruthFilePrefix with value /home/laiyuhui/datasets/argoverse2/motion_forecast/embeddings/test/truth/truth_embeddings
+[1] Setting Update with value true
+[1] Setting UpdateFilePrefix with value /home/sosp/data/sift_data/bigann1m_update_clustering_trace
+[1] Setting UseDirectIO with value true
+[1] Setting UseSPDK with value true
+[1] 2: 2 
+[1] 2: 2 
+[4] Cannot open file /home/laiyuhui/SPFresh/Script_AE/head_index/vectors.bin!
+[4] Cannot open file /home/laiyuhui/SPFresh/Script_AE/head_index/tree.bin!
+[4] Cannot open file /home/laiyuhui/SPFresh/Script_AE/head_index/graph.bin!
+[4] Cannot open file /home/laiyuhui/SPFresh/Script_AE/head_index/deletes.bin!
+[1] Setting NumberOfThreads with value 10
+[1] Setting MaxCheck with value 4096
+[1] Setting HashTableExponent with value 4
+[1] Posting size limit: 1194, search limit: 9.000000, merge threshold: 10
+[1] DataBlockSize: 1048576, Capacity: 2147483647
+[1] SPFresh: initialize thread pools, append: 8, reassign 0
